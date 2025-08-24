@@ -18,7 +18,7 @@ const JourneySection = () => {
         <div className='lg:relative flex flex-col my-10 gap-y-5'>
             <Image src={Line} alt='line' className='hidden lg:block self-center h-3/4'/>
             <div className='flex flex-col md:gap-y-4 lg:flex-row bg-transparent items-center justify-start h-60 w-full lg:absolute lg:top-20 '>
-                <p className='lg:w-[47.7%] xl:w-[48%] 2xl:w-[48.7%] font-family-sans font-light text-center text-2xl lg:text-3xl italic'>We’re building a solid admin networking space</p>
+                <p className='lg:w-[47.7%] xl:w-[48%] 2xl:w-[48.7%] font-family-sans font-light text-center text-2xl lg:text-3xl italic'>We&apos;re building a solid admin networking space</p>
                 <Image src={NumberOne} alt='number one' className='hidden lg:block w-16 md:w-20 h-auto'/>
                 <div className='flex items-center justify-center bg-dark-purple w-1/3 h-40 rounded shadow-lg shadow-lavender-blue'>
                     <p className='font-family-sans text-xl md:text-2xl text-center p-2 text-white'>Join Admin Cafe and  Grow with the Community!</p>
@@ -33,7 +33,7 @@ const JourneySection = () => {
                
             </div>
             <div className='flex flex-col md:gap-y-4 lg:flex-row bg-transparent items-center justify-start h-60 w-full lg:absolute lg:top-220'>
-                <p className='lg:w-[47.7%] xl:w-[48%] 2xl:w-[48.7%] font-family-sans font-light text-center text-2xl lg:text-3xl italic'>We’re offering an exceptional path to your career aspirations</p>
+                <p className='lg:w-[47.7%] xl:w-[48%] 2xl:w-[48.7%] font-family-sans font-light text-center text-2xl lg:text-3xl italic'>We&apos;re offering an exceptional path to your career aspirations</p>
                 <Image src={NumberThree} alt='number one' className='hidden lg:block w-16 md:w-20 h-auto'/>
                 <div className='flex items-center justify-center bg-dark-purple w-1/3 h-40 rounded shadow-lg shadow-lavender-blue'>
                     <p className='font-family-sans text-xl md:text-2xl text-center p-2 text-white'>Enroll in the Office Administration Certificate</p>
