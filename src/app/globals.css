@@ -3,19 +3,69 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
 }
 
+@theme {
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
+  --color-primary-accent: #063268; /* dark blue */
+  --color-secondary-accent: #FFE8B1; /*pale yellow*/
+  --color-slate-blue: #6C81B4;
+  --color-dark-purple: #495374;
+  --color-egyptian-violet: #3D496E;
+  --color-lavender-blue: #C9E7FB;
+  --color-ivory: #FFFEF9;
+  --color-bright-orange: #FF990A;
+  --color-violet-purple: #29182f;
+
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-family-sans: var(--font-sans), sans-serif;
+  --font-family-display: var(--font-display), cursive;
+  
+
+    /* 'purple': {
+      500: '#6C81B4',
+      600: '#495374',
+      700: '#3D496E',
+    },
+    'blue': {
+      500: '#C9E7FB',
+      600: '#3D496E',
+    },
+    'beige': {
+      500: '#FFFEF9',
+    } */
+ 
+  /* colors {
+    'orange': '#FF990A',
+    'text-primary': ' #000000',
+    'text-secondary': '#ffffff'
+    'text-primary-accent': '#063268',
+    'text-secondary-accent': '#FFE8B1',
+    'purple': {
+      500: '#6C81B4',
+      600: '#495374',
+      700: '#3D496E',
+    },
+    'blue': {
+      500: '#C9E7FB',
+      600: '#3D496E',
+    },
+    'beige': {
+      500: '#FFFEF9',
+    }
+  } */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
   }
 }
 

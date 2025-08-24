@@ -1,0 +1,26 @@
+import React from 'react';
+
+interface HeroLeftBottomWavesProps {
+  className?: string;
+}
+
+const HeroLeftBottomWaves = ({className} : HeroLeftBottomWavesProps) => {
+  return (
+    <svg className={className} width="436" height="239" viewBox="0 0 436 239" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fillRule="evenodd" clipRule="evenodd" d="M425 209H361.5C276.5 234.327 273.5 224.5 145.5 146C38 99 36.5 66 -2 0V183.673V238.552H25.1203C61.473 238.552 134.178 238.552 206.884 238.552C279.589 238.552 352.295 238.552 388.647 238.552H425V209Z" fill="url(#paint0_linear_9_5)" fillOpacity="0.4"/>
+      <path fillRule="evenodd" clipRule="evenodd" d="M427.5 147L343.403 158.275C310.5 172 243.406 208.852 195.026 203.541C69.6218 197.004 24.784 132 -2 107V216.57V238.552H24.784C60.6859 238.552 132.49 238.552 204.293 238.552C276.097 238.552 347.901 238.552 383.803 238.552H436L427.5 147Z" fill="url(#paint1_linear_9_5)" fillOpacity="0.4"/>
+      <defs>
+      <linearGradient id="paint0_linear_9_5" x1="425" y1="153.666" x2="-1.99995" y2="153.666" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0865385" stopColor="#FFFEF9"/>
+      <stop offset="1" stopColor="#C9E7FB"/>
+      </linearGradient>
+      <linearGradient id="paint1_linear_9_5" x1="419.705" y1="222.943" x2="-2.00005" y2="222.943" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0865385" stopColor="#FFFEF9"/>
+      <stop offset="1" stopColor="#C9E7FB"/>
+      </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export default HeroLeftBottomWaves;
