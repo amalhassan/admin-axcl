@@ -44,7 +44,7 @@ const NavBar = () => {
         <div className="md:hidden absolute top-0 left-0 w-full h-screen bg-lavender-blue z-50">
            {/* Menu Header with Close Button */}
            <div className="flex justify-between items-center h-20 px-4">
-              <p className="font-family-display text-primary-accent text-2xl">Admin Accerlerator</p>
+              <Link href='#' className="font-family-display text-primary-accent text-2xl">Admin Accerlerator</Link>
               <button
                 onClick={() => setIsMenuOpen(false)}
                 aria-label="Close main menu"
