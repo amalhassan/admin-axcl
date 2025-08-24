@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <nav className="relative">
     <div className='flex justify-between w-full h-20 items-center px-6 sm:px-20 lg:px-25'>
-      <p className="font-family-display text-primary-accent text-2xl lg:text-3x">Admin Accelerator</p>
+      <Link href='#' className="font-family-display text-primary-accent text-2xl lg:text-3x">Admin Accelerator</Link>
       <div className="hidden md:flex items-center gap-6 lg:gap-8 font-family-sans font-medium text-bright-orange">
         <Link href='#mission' className="hover:text-dark-purple">Mission</Link>
         <Link href='#journey' className="hover:text-dark-purple">Journey</Link>
