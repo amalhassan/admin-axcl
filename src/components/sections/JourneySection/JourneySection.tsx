@@ -5,12 +5,14 @@ import Line from '../../../../public/images/Line 1.svg'
 import NumberOne from '../../../../public/images/journey-number-1.svg'
 import NumberTwo from '../../../../public/images/journey-number-2.svg'
 import NumberThree from '../../../../public/images/journey-number-3.svg'
+import UpperBottomWave from '../../../../public/images/journey-upper-wave.svg'
+import MiddleWave from '../../../../public/images/journey-middle-wave.svg'
 const JourneySection = () => {
 
   return (
     <div className='flex flex-col relative items-center justify-start bg-gradient-to-t from-white from-95% to-lavender-blue h-fit' id="journey">
       <Image src={TopWave} alt='journey-top-wave' className='absolute -top-12 sm:-top-16 md:-top-19 lg:-top-24 xl:-top-30 2xl:-top-37 w-5/6 h-auto'/>
-      <div className='w-5/6 flex-grow bg-white mt-3'>
+      <div className='w-5/6 flex-grow bg-white mt-3 z-2'>
         <div className='w-full flex flex-col gap-y-4 justify-center items-center mt-20'>
             <h4 className='font-family-display text-2xl lg:text-4xl text-amber-400'>The Journey</h4>
             <h5 className='font-family-sans text-xl md:text-2xl text-primary-accent'>Accelerate Your Career</h5>
@@ -41,6 +43,9 @@ const JourneySection = () => {
             </div>
         </div>
       </div>
+      <Image src={UpperBottomWave} alt='upper waves' className='absolute top-30 right-0 -z-0'/>
+      <Image src={MiddleWave} alt='middle waves' className='absolute top-110 lg:top-150 left-0 -z-0'/>
+      <Image src={UpperBottomWave} alt='upper waves' className='absolute top-153 lg:top-260 right-0 -z-0'/>
     </div>
   )
 }
