@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${macandoSwashCaps.variable} ${roboto.variable} antialiased w-fit `} >
+      <body className={`${macandoSwashCaps.variable} ${roboto.variable} antialiased w-screen `} >
         {children}
       </body>
     </html>
