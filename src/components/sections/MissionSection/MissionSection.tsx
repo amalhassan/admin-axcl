@@ -15,8 +15,7 @@ const MissionSection = () => {
       <div className='flex flex-col  gap-y-20 lg:gap-y-30 text-white mt-20 lg:mt-50 xl:mt-20'>
         <div className='flex flex-col gap-y-6'>
             <h3 className='font-family-display text-secondary-accent text-2xl lg:text-4xl'>The Mission</h3>
-            <p className='z-1 font-family-sans font-medium text-2xl lg:text-4xl'>Become an Industry Leader </p>
-            <p className='font-family-sans font-light italic text-2xl lg:text-3xl'>The Best Launchpad to your Dream Career</p>
+            <p className='z-1 font-family-sans font-medium text-2xl lg:text-4xl'>To Offer a Path Cultivating Industry Insiders and to Unlock the Launchpad to Dream Careers</p>
             <p className='font-family-sans w-1/2 self-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
         </div>
         <div className='flex flex-row justify-between '>
@@ -50,3 +49,5 @@ const MissionSection = () => {
 }
 
 export default MissionSection
+
+  /* <p className='font-family-sans font-light italic text-2xl lg:text-3xl'></p> */

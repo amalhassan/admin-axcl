@@ -68,8 +68,8 @@ const handleLeftArrowClick = () => {
         </div>
         <div className='flex flex-col w-[90%] lg:w-[60%] gap-y-3 lg:self-start'>
           <p className='font-family-display text-4xl text-primary-accent lg:self-center'>Courses</p>
-          <p className='font-family-sans text-3xl font-bold text-center w-2/3 self-center'>Lorem ipsum dolor sit amet</p>
-          <p className='font-family-sans text-2xl font-light text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className='font-family-sans text-3xl font-bold text-center w-2/3 self-center'>Where Careers Take Flight</p>
+          <p className='font-family-sans text-2xl font-light text-center'>Chart your course boldy! Each decision you take is a stepping stone towards the future you are destined to create.</p>
           <div className='flex gap-x-2 relative'>
             <div onClick={handleLeftArrowClick} className='rounded-full bg-bright-orange w-10 h-10 absolute -left-4 top-17 flex items-center justify-center'>
               <Icon icon="material-symbols-light:keyboard-arrow-left" width="40" height="40" className='text-white'/>
