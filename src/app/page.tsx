@@ -9,7 +9,7 @@ import Footer from "@/components/sections/Footer/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-ivory">
+    <div className="bg-ivory w-screen">
     <NavBar/>
     <Hero/>
     <MissionSection />
